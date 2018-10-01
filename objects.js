@@ -5,7 +5,7 @@ function updatePlaylist(playlist,name,song){
   return playlist;
 }
 
-function removeFromPlaylist(playlist,name){
+function removeFromPlaylist(playlist,artistName){
   delete playlist.Nirvana;
   return playlist;
   
