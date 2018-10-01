@@ -6,7 +6,7 @@ function updatePlaylist(playlist,name,song){
 }
 
 function removeFromPlaylist(playlist,artistName){
-  var dup_playlist = playlist.slice();
+  
   delete dup_playlist[Nirvana];
   return playlist;
   
