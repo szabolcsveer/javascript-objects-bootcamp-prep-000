@@ -7,7 +7,7 @@ function updatePlaylist(playlist,name,song){
 
 function removeFromPlaylist(playlist,artistName){
   
-  delete dup_playlist[Nirvana];
+  delete playlist[Nirvana];
   return playlist;
   
 }
