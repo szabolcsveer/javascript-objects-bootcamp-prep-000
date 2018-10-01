@@ -8,7 +8,7 @@ function updatePlaylist(playlist,name,song){
 function removeFromPlaylist(playlist,name){
   
   delete playlist.Nirvana;
-  var newplaylist = playlist;
-  return newplaylist;
+  
+  return playlist;
   
 }
