@@ -9,6 +9,6 @@ function removeFromPlaylist(playlist,name){
   
   delete playlist.Nirvana;
   var newplaylist = playlist;
-  return playlist;
+  return newplaylist;
   
 }
